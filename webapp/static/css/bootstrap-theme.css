@@ -3,6 +3,10 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .body{
+  background-color: #0f0f0f;
+ }
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -363,8 +367,8 @@ fieldset[disabled] .btn-danger.active {
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
-  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image: -webkit-linear-gradient(top, #b6b6b6 0%, #222 100%);
+  background-image:      -o-linear-gradient(top, #ababab 0%, #222 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
   background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
